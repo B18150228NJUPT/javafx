@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="rootLayout" prefHeight="560.0" prefWidth="387.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Mycontroller">
+   <children>
+      <Button id="loginButton" fx:id="loginbutton" layoutX="169.0" layoutY="408.0" mnemonicParsing="false" onAction="#clickonlogin" style="-fx-background-radius: 0.5;" text="登录" />
+      <TextField id="nameField" fx:id="namefield" layoutX="130.0" layoutY="184.0" />
+      <TextField id="passwordField" fx:id="passwordfield" layoutX="130.0" layoutY="234.0" />
+      <Label layoutX="56.0" layoutY="189.0" text="账户" />
+      <Label layoutX="56.0" layoutY="239.0" text="密码" />
+      <Label fx:id="errortip" layoutX="145.0" layoutY="142.0" text="请输入正确的账户和密码" textFill="RED" visible="false" />
+      <Pane prefHeight="107.0" prefWidth="387.0" style="-fx-background-color: gray;">
+         <children>
+            <Text layoutX="39.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="中小学资产管理信息系统">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <ChoiceBox fx:id="UserType" layoutX="130.0" layoutY="306.0" prefWidth="150.0">
+      </ChoiceBox>
+   </children>
+</AnchorPane>

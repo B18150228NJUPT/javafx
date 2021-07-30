@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="650.0" prefWidth="900.0" style="-fx-background-color: DEEPSKYBLUE;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.f3Controller">
+   <children>
+      <Text layoutX="40.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="个人信息修改">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Text fill="#2f2f2f" fontSmoothingType="LCD" layoutX="40.0" layoutY="159.0" strokeType="OUTSIDE" strokeWidth="0.0" text="姓名">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <Text fill="#2f2f2f" fontSmoothingType="LCD" layoutX="40.0" layoutY="316.0" strokeType="OUTSIDE" strokeWidth="0.0" text="密码">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <Text fill="#2f2f2f" fontSmoothingType="LCD" layoutX="40.0" layoutY="391.0" strokeType="OUTSIDE" strokeWidth="0.0" text="电话">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <Text fill="#2f2f2f" fontSmoothingType="LCD" layoutX="40.0" layoutY="465.0" strokeType="OUTSIDE" strokeWidth="0.0" text="权限">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <Text fill="#2f2f2f" fontSmoothingType="LCD" layoutX="40.0" layoutY="238.0" strokeType="OUTSIDE" strokeWidth="0.0" text="职工号">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <Button fx:id="b1" layoutX="750.0" layoutY="571.0" mnemonicParsing="false" style="-fx-background-color: LIGHTGREY; -fx-background-radius: 0.5;" text="提交">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <TextField fx:id="t2" layoutX="161.0" layoutY="290.0" style="-fx-background-radius: 0.5;" />
+      <TextField fx:id="t3" layoutX="161.0" layoutY="368.0" style="-fx-background-radius: 0.5;" />
+      <TextField fx:id="t1" layoutX="161.0" layoutY="133.0" style="-fx-background-radius: 0.5;" />
+      <Text fx:id="tx1" fill="#2f2f2f" fontSmoothingType="LCD" layoutX="161.0" layoutY="237.0" strokeType="OUTSIDE" strokeWidth="0.0" text="职工号">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <Text fx:id="tx2" fill="#2f2f2f" fontSmoothingType="LCD" layoutX="161.0" layoutY="464.0" strokeType="OUTSIDE" strokeWidth="0.0" text="职工号">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

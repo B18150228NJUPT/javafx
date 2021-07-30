@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.chart.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="650.0" prefWidth="900.0" style="-fx-background-color: DEEPSKYBLUE;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.tongJController">
+   <children>
+      <StackPane fx:id="sp1" layoutX="14.0" layoutY="120.0" prefHeight="516.0" prefWidth="878.0" style="-fx-background-color: AZURE;" />
+      <Button layoutX="24.0" layoutY="63.0" mnemonicParsing="false" onAction="#switchchar" style="-fx-background-color: LIGHTGREY; -fx-background-radius: 0.5;" text="切换图标" />
+   </children>
+</AnchorPane>

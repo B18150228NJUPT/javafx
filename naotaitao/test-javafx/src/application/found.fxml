@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="root" prefHeight="700.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.foundController">
+   <children>
+      <Button fx:id="found" alignment="CENTER" layoutX="65.0" layoutY="665.0" mnemonicParsing="false" onAction="#toFoundPage" text="发现" textOverrun="CLIP">
+         <font>
+            <Font name="System Italic" size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="main" alignment="CENTER" layoutX="171.0" layoutY="665.0" mnemonicParsing="false" onAction="#toMainPage" text="[ / ]" textOverrun="CLIP">
+         <font>
+            <Font name="System Italic" size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="person" alignment="CENTER" layoutX="270.0" layoutY="665.0" mnemonicParsing="false" onAction="#toPersonPage" text="我的" textOverrun="CLIP">
+         <font>
+            <Font name="System Italic" size="17.0" />
+         </font>
+      </Button>
+      <TextField fx:id="searchtext" layoutX="14.0" layoutY="37.0" prefHeight="30.0" prefWidth="340.0" />
+      <Button fx:id="searchbutton" layoutX="365.0" layoutY="37.0" mnemonicParsing="false" onAction="#search" prefHeight="30.0" prefWidth="34.0" text="?" />
+      <Text layoutX="14.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="推荐：">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <ScrollPane fx:id="scrollPane" hbarPolicy="NEVER" layoutX="14.0" layoutY="126.0" prefHeight="540.0" prefWidth="368.0" />
+      <Text fx:id="searchHit" fill="#ff6200" layoutX="14.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="搜索页已存在" visible="false" />
+   </children>
+</AnchorPane>

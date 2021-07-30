@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1080.0" style="-fx-background-color: DEEPSKYBLUE;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.admin1Controller">
+   <children>
+      <Pane prefHeight="70.0" prefWidth="1085.0" style="-fx-background-color: DARKSLATEGRAY;">
+         <children>
+            <Text layoutX="394.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="中小学资产管理信息系统">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane layoutX="-1.0" layoutY="70.0" prefHeight="653.0" prefWidth="180.0" style="-fx-background-color: LIGHTSLATEGREY REY;">
+         <children>
+            <Button fx:id="s1" layoutX="14.0" layoutY="539.0" mnemonicParsing="false" onAction="#sun1" style="-fx-background-color: white; -fx-background-radius: 0.5;" text="个人信息管理" />
+            <Button fx:id="CAIGOU" layoutX="14.0" layoutY="199.0" mnemonicParsing="false" onAction="#Caig" style="-fx-background-color: white; -fx-background-radius: 0.5;" text="资产采购" />
+            <Button fx:id="fun2" layoutX="14.0" layoutY="103.0" mnemonicParsing="false" onAction="#fun2" style="-fx-background-color: white; -fx-background-radius: 0.5;" text="资产信息管理" />
+            <Button fx:id="fun1" layoutX="14.0" layoutY="493.0" mnemonicParsing="false" onAction="#fun1" style="-fx-background-color: white; -fx-background-radius: 0.5;" text="用户信息管理" />
+            <Button fx:id="TONGJI" layoutX="14.0" layoutY="152.0" mnemonicParsing="false" onAction="#Tongj" style="-fx-background-color: white; -fx-background-radius: 0.5;" text="资产统计" />
+            <Button fx:id="FENPEI" layoutX="14.0" layoutY="248.0" mnemonicParsing="false" onAction="#Fenp" style="-fx-background-color: white; -fx-background-radius: 0.5;" text="资产分配" />
+            <Button fx:id="WEIXIU" layoutX="14.0" layoutY="297.0" mnemonicParsing="false" onAction="#WeiX" style="-fx-background-color: white; -fx-background-radius: 0.5;" text="资产维修" />
+            <Button fx:id="LINGYONG" layoutX="14.0" layoutY="344.0" mnemonicParsing="false" onAction="#Lingy" style="-fx-background-color: white; -fx-background-radius: 0.5;" text="资产领用" />
+            <Button fx:id="chuzhi" layoutX="14.0" layoutY="394.0" mnemonicParsing="false" onAction="#Chuz" style="-fx-background-color: white; -fx-background-radius: 0.5;" text="资产处置" />
+            <Button fx:id="shangbao" layoutX="14.0" layoutY="443.0" mnemonicParsing="false" onAction="#Shu1" style="-fx-background-color: white; -fx-background-radius: 0.5;" text="数据上报" />
+            <Button fx:id="s11" layoutX="14.0" layoutY="599.0" mnemonicParsing="false" onAction="#zhuxiao" style="-fx-background-color: white; -fx-background-radius: 0.5;" text="注销" />
+         </children>
+      </Pane>
+      <StackPane fx:id="sp" layoutX="180.0" layoutY="70.0" prefHeight="653.0" prefWidth="902.0">
+      </StackPane>
+   </children>
+  
+</AnchorPane>

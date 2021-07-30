@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="650.0" prefWidth="900.0" style="-fx-background-color: DEEPSKYBLUE;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.caigouController">
+   <children>
+      <DatePicker fx:id="t5" layoutX="258.0" layoutY="337.0" prefHeight="30.0" prefWidth="202.0" />
+      <TextField fx:id="t9" layoutX="258.0" layoutY="553.0" style="-fx-background-radius: 0.5;" />
+      <TextField fx:id="t8" layoutX="258.0" layoutY="500.0" style="-fx-background-radius: 0.5;" />
+      <TextField fx:id="t7" layoutX="258.0" layoutY="447.0" style="-fx-background-radius: 0.5;" />
+      <TextField fx:id="t6" layoutX="258.0" layoutY="389.0" style="-fx-background-radius: 0.5;" />
+      <TextField fx:id="t4" layoutX="258.0" layoutY="281.0" style="-fx-background-radius: 0.5;" />
+      <TextField fx:id="t3" layoutX="258.0" layoutY="231.0" style="-fx-background-radius: 0.5;" />
+      <Button fx:id="b1" layoutX="770.0" layoutY="597.0" mnemonicParsing="false" onAction="#sub" style="-fx-background-color: LIGHTGREY; -fx-background-radius: 0.5;" text="提交">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <TextField fx:id="t2" layoutX="258.0" layoutY="181.0" style="-fx-background-radius: 0.5;" />
+      <Text fill="#2f2f2f" fontSmoothingType="LCD" layoutX="38.0" layoutY="579.0" strokeType="OUTSIDE" strokeWidth="0.0" text="审批意见">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <Text fill="#2f2f2f" fontSmoothingType="LCD" layoutX="38.0" layoutY="526.0" strokeType="OUTSIDE" strokeWidth="0.0" text="所需资金">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <Text fill="#2f2f2f" fontSmoothingType="LCD" layoutX="38.0" layoutY="470.0" strokeType="OUTSIDE" strokeWidth="0.0" text="申购原因">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <Text fill="#2f2f2f" fontSmoothingType="LCD" layoutX="42.0" layoutY="256.0" strokeType="OUTSIDE" strokeWidth="0.0" text="名称">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <Text fill="#2f2f2f" fontSmoothingType="LCD" layoutX="38.0" layoutY="363.0" strokeType="OUTSIDE" strokeWidth="0.0" text="时间">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <Text fill="#2f2f2f" fontSmoothingType="LCD" layoutX="38.0" layoutY="307.0" strokeType="OUTSIDE" strokeWidth="0.0" text="数量">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <Text fill="#2f2f2f" fontSmoothingType="LCD" layoutX="40.0" layoutY="414.0" strokeType="OUTSIDE" strokeWidth="0.0" text="申请人">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <Text fill="#2f2f2f" fontSmoothingType="LCD" layoutX="38.0" layoutY="204.0" strokeType="OUTSIDE" strokeWidth="0.0" text="规格型号">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <Text fill="#2f2f2f" fontSmoothingType="LCD" layoutX="38.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="请购部门">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <Text layoutX="40.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="采购">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <ChoiceBox fx:id="t1" layoutX="258.0" layoutY="129.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>
